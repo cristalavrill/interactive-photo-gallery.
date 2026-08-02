@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Fotográfica Interactiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Galería Fotográfica</h1>
+
+<div id="image">
+    Pase el ratón por encima de una imagen para mostrarla aquí
+</div>
+
+<div class="gallery">
+    <img src="https://picsum.photos/id/1015/200/150" alt="Montaña" onmouseover="upDate(this)" onmouseout="undo()">
+
+    <img src="https://picsum.photos/id/1016/200/150" alt="Bosque" onmouseover="upDate(this)" onmouseout="undo()">
+
+    <img src="https://picsum.photos/id/1025/200/150" alt="Perro" onmouseover="upDate(this)" onmouseout="undo()">
+
+    <img src="https://picsum.photos/id/1035/200/150" alt="Playa" onmouseover="upDate(this)" onmouseout="undo()">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
